@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6068844A18DFCAA900ECDDF8 /* TimedRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068844918DFCAA900ECDDF8 /* TimedRunner.m */; };
+		609BFD3218E337F100672D4A /* SingleTimedRunnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609BFD3018E337F100672D4A /* SingleTimedRunnerViewController.m */; };
+		609BFD3318E337F100672D4A /* SingleTimedRunnerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 609BFD3118E337F100672D4A /* SingleTimedRunnerViewController.xib */; };
+		609BFD3F18E471E000672D4A /* multiTimer_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 609BFD3C18E471E000672D4A /* multiTimer_120.png */; };
+		609BFD4018E471E000672D4A /* multiTimer_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 609BFD3D18E471E000672D4A /* multiTimer_58.png */; };
+		609BFD4118E471E000672D4A /* multiTimer_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 609BFD3E18E471E000672D4A /* multiTimer_80.png */; };
+		609BFD4518E4766D00672D4A /* UITableViewLapTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 609BFD4318E4766D00672D4A /* UITableViewLapTimeCell.m */; };
+		609BFD4618E4766D00672D4A /* UITableViewLapTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 609BFD4418E4766D00672D4A /* UITableViewLapTimeCell.xib */; };
+		609BFD4B18E4AEBC00672D4A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609BFD4A18E4AEBC00672D4A /* QuartzCore.framework */; };
+		609BFD4E18E4D2A300672D4A /* Back_Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 609BFD4C18E4D2A300672D4A /* Back_Arrow@2x.png */; };
+		609BFD4F18E4D2A300672D4A /* Back_Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 609BFD4D18E4D2A300672D4A /* Back_Arrow.png */; };
+		60F9CF3D18DE401500C00388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F9CF3C18DE401500C00388 /* Foundation.framework */; };
+		60F9CF3F18DE401500C00388 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F9CF3E18DE401500C00388 /* CoreGraphics.framework */; };
+		60F9CF4118DE401500C00388 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F9CF4018DE401500C00388 /* UIKit.framework */; };
+		60F9CF4718DE401500C00388 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60F9CF4518DE401500C00388 /* InfoPlist.strings */; };
+		60F9CF4918DE401500C00388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F9CF4818DE401500C00388 /* main.m */; };
+		60F9CF4D18DE401500C00388 /* rbrooksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F9CF4C18DE401500C00388 /* rbrooksAppDelegate.m */; };
+		60F9CF4F18DE401500C00388 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F9CF4E18DE401500C00388 /* Images.xcassets */; };
+		60F9CF5618DE401500C00388 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F9CF5518DE401500C00388 /* XCTest.framework */; };
+		60F9CF5718DE401500C00388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F9CF3C18DE401500C00388 /* Foundation.framework */; };
+		60F9CF5818DE401500C00388 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F9CF4018DE401500C00388 /* UIKit.framework */; };
+		60F9CF6018DE401500C00388 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60F9CF5E18DE401500C00388 /* InfoPlist.strings */; };
+		60F9CF6218DE401500C00388 /* MultiTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F9CF6118DE401500C00388 /* MultiTimerTests.m */; };
+		60F9CF7118DE407700C00388 /* MultiTimerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F9CF6F18DE407700C00388 /* MultiTimerTableViewController.m */; };
+		60F9CF7218DE407700C00388 /* MultiTimerTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F9CF7018DE407700C00388 /* MultiTimerTableViewController.xib */; };
+		60F9CF7618DE47D300C00388 /* TimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F9CF7418DE47D300C00388 /* TimerTableViewCell.m */; };
+		60F9CF7718DE47D300C00388 /* TimerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F9CF7518DE47D300C00388 /* TimerTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60F9CF5918DE401500C00388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F9CF3118DE401500C00388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60F9CF3818DE401500C00388;
+			remoteInfo = MultiTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6068844818DFCAA900ECDDF8 /* TimedRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimedRunner.h; path = Model/TimedRunner.h; sourceTree = "<group>"; };
+		6068844918DFCAA900ECDDF8 /* TimedRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimedRunner.m; path = Model/TimedRunner.m; sourceTree = "<group>"; };
+		609BFD2F18E337F100672D4A /* SingleTimedRunnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleTimedRunnerViewController.h; path = Controller/SingleTimedRunnerViewController.h; sourceTree = "<group>"; };
+		609BFD3018E337F100672D4A /* SingleTimedRunnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleTimedRunnerViewController.m; path = Controller/SingleTimedRunnerViewController.m; sourceTree = "<group>"; };
+		609BFD3118E337F100672D4A /* SingleTimedRunnerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SingleTimedRunnerViewController.xib; path = Controller/SingleTimedRunnerViewController.xib; sourceTree = "<group>"; };
+		609BFD3C18E471E000672D4A /* multiTimer_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiTimer_120.png; sourceTree = "<group>"; };
+		609BFD3D18E471E000672D4A /* multiTimer_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiTimer_58.png; sourceTree = "<group>"; };
+		609BFD3E18E471E000672D4A /* multiTimer_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiTimer_80.png; sourceTree = "<group>"; };
+		609BFD4218E4766D00672D4A /* UITableViewLapTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITableViewLapTimeCell.h; path = View/UITableViewLapTimeCell.h; sourceTree = "<group>"; };
+		609BFD4318E4766D00672D4A /* UITableViewLapTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITableViewLapTimeCell.m; path = View/UITableViewLapTimeCell.m; sourceTree = "<group>"; };
+		609BFD4418E4766D00672D4A /* UITableViewLapTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UITableViewLapTimeCell.xib; path = View/UITableViewLapTimeCell.xib; sourceTree = "<group>"; };
+		609BFD4918E4AAF000672D4A /* NavigationBarAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationBarAppearance.h; sourceTree = "<group>"; };
+		609BFD4A18E4AEBC00672D4A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		609BFD4C18E4D2A300672D4A /* Back_Arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back_Arrow@2x.png"; sourceTree = "<group>"; };
+		609BFD4D18E4D2A300672D4A /* Back_Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_Arrow.png; sourceTree = "<group>"; };
+		60F9CF3918DE401500C00388 /* MultiTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F9CF3C18DE401500C00388 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60F9CF3E18DE401500C00388 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60F9CF4018DE401500C00388 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60F9CF4418DE401500C00388 /* MultiTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiTimer-Info.plist"; sourceTree = "<group>"; };
+		60F9CF4618DE401500C00388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60F9CF4818DE401500C00388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60F9CF4A18DE401500C00388 /* MultiTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiTimer-Prefix.pch"; sourceTree = "<group>"; };
+		60F9CF4B18DE401500C00388 /* rbrooksAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rbrooksAppDelegate.h; sourceTree = "<group>"; };
+		60F9CF4C18DE401500C00388 /* rbrooksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rbrooksAppDelegate.m; sourceTree = "<group>"; };
+		60F9CF4E18DE401500C00388 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60F9CF5418DE401500C00388 /* MultiTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F9CF5518DE401500C00388 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		60F9CF5D18DE401500C00388 /* MultiTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiTimerTests-Info.plist"; sourceTree = "<group>"; };
+		60F9CF5F18DE401500C00388 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60F9CF6118DE401500C00388 /* MultiTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTimerTests.m; sourceTree = "<group>"; };
+		60F9CF6E18DE407700C00388 /* MultiTimerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiTimerTableViewController.h; path = Controller/MultiTimerTableViewController.h; sourceTree = "<group>"; };
+		60F9CF6F18DE407700C00388 /* MultiTimerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiTimerTableViewController.m; path = Controller/MultiTimerTableViewController.m; sourceTree = "<group>"; };
+		60F9CF7018DE407700C00388 /* MultiTimerTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MultiTimerTableViewController.xib; path = Controller/MultiTimerTableViewController.xib; sourceTree = "<group>"; };
+		60F9CF7318DE47D300C00388 /* TimerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerTableViewCell.h; path = View/TimerTableViewCell.h; sourceTree = "<group>"; };
+		60F9CF7418DE47D300C00388 /* TimerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerTableViewCell.m; path = View/TimerTableViewCell.m; sourceTree = "<group>"; };
+		60F9CF7518DE47D300C00388 /* TimerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimerTableViewCell.xib; path = View/TimerTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60F9CF3618DE401500C00388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609BFD4B18E4AEBC00672D4A /* QuartzCore.framework in Frameworks */,
+				60F9CF3F18DE401500C00388 /* CoreGraphics.framework in Frameworks */,
+				60F9CF4118DE401500C00388 /* UIKit.framework in Frameworks */,
+				60F9CF3D18DE401500C00388 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F9CF5118DE401500C00388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F9CF5618DE401500C00388 /* XCTest.framework in Frameworks */,
+				60F9CF5818DE401500C00388 /* UIKit.framework in Frameworks */,
+				60F9CF5718DE401500C00388 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6068844B18DFCB7700ECDDF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6068844818DFCAA900ECDDF8 /* TimedRunner.h */,
+				6068844918DFCAA900ECDDF8 /* TimedRunner.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		609BFD3418E337FE00672D4A /* MultiTimer */ = {
+			isa = PBXGroup;
+			children = (
+				60F9CF6E18DE407700C00388 /* MultiTimerTableViewController.h */,
+				60F9CF6F18DE407700C00388 /* MultiTimerTableViewController.m */,
+				60F9CF7018DE407700C00388 /* MultiTimerTableViewController.xib */,
+			);
+			name = MultiTimer;
+			sourceTree = "<group>";
+		};
+		609BFD3518E3380700672D4A /* SingleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				609BFD2F18E337F100672D4A /* SingleTimedRunnerViewController.h */,
+				609BFD3018E337F100672D4A /* SingleTimedRunnerViewController.m */,
+				609BFD3118E337F100672D4A /* SingleTimedRunnerViewController.xib */,
+			);
+			name = SingleViewController;
+			sourceTree = "<group>";
+		};
+		609BFD4718E4767300672D4A /* LapTimeCell */ = {
+			isa = PBXGroup;
+			children = (
+				609BFD4218E4766D00672D4A /* UITableViewLapTimeCell.h */,
+				609BFD4318E4766D00672D4A /* UITableViewLapTimeCell.m */,
+				609BFD4418E4766D00672D4A /* UITableViewLapTimeCell.xib */,
+			);
+			name = LapTimeCell;
+			sourceTree = "<group>";
+		};
+		609BFD4818E4767E00672D4A /* timerCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = timerCell;
+			sourceTree = "<group>";
+		};
+		60F9CF3018DE401500C00388 = {
+			isa = PBXGroup;
+			children = (
+				60F9CF4218DE401500C00388 /* MultiTimer */,
+				60F9CF5B18DE401500C00388 /* MultiTimerTests */,
+				60F9CF3B18DE401500C00388 /* Frameworks */,
+				60F9CF3A18DE401500C00388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60F9CF3A18DE401500C00388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60F9CF3918DE401500C00388 /* MultiTimer.app */,
+				60F9CF5418DE401500C00388 /* MultiTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60F9CF3B18DE401500C00388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609BFD4A18E4AEBC00672D4A /* QuartzCore.framework */,
+				60F9CF3C18DE401500C00388 /* Foundation.framework */,
+				60F9CF3E18DE401500C00388 /* CoreGraphics.framework */,
+				60F9CF4018DE401500C00388 /* UIKit.framework */,
+				60F9CF5518DE401500C00388 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60F9CF4218DE401500C00388 /* MultiTimer */ = {
+			isa = PBXGroup;
+			children = (
+				60F9CF7818DE47DD00C00388 /* MultiView */,
+				60F9CF7918DE47E300C00388 /* SingleView */,
+				6068844B18DFCB7700ECDDF8 /* Model */,
+				60F9CF4318DE401500C00388 /* Supporting Files */,
+			);
+			path = MultiTimer;
+			sourceTree = "<group>";
+		};
+		60F9CF4318DE401500C00388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60F9CF4C18DE401500C00388 /* rbrooksAppDelegate.m */,
+				60F9CF4B18DE401500C00388 /* rbrooksAppDelegate.h */,
+				609BFD4918E4AAF000672D4A /* NavigationBarAppearance.h */,
+				609BFD3C18E471E000672D4A /* multiTimer_120.png */,
+				609BFD3D18E471E000672D4A /* multiTimer_58.png */,
+				609BFD3E18E471E000672D4A /* multiTimer_80.png */,
+				609BFD4C18E4D2A300672D4A /* Back_Arrow@2x.png */,
+				609BFD4D18E4D2A300672D4A /* Back_Arrow.png */,
+				60F9CF4E18DE401500C00388 /* Images.xcassets */,
+				60F9CF4418DE401500C00388 /* MultiTimer-Info.plist */,
+				60F9CF4518DE401500C00388 /* InfoPlist.strings */,
+				60F9CF4818DE401500C00388 /* main.m */,
+				60F9CF4A18DE401500C00388 /* MultiTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60F9CF5B18DE401500C00388 /* MultiTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				60F9CF6118DE401500C00388 /* MultiTimerTests.m */,
+				60F9CF5C18DE401500C00388 /* Supporting Files */,
+			);
+			path = MultiTimerTests;
+			sourceTree = "<group>";
+		};
+		60F9CF5C18DE401500C00388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60F9CF5D18DE401500C00388 /* MultiTimerTests-Info.plist */,
+				60F9CF5E18DE401500C00388 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60F9CF7818DE47DD00C00388 /* MultiView */ = {
+			isa = PBXGroup;
+			children = (
+				609BFD3418E337FE00672D4A /* MultiTimer */,
+				609BFD4818E4767E00672D4A /* timerCell */,
+				60F9CF7318DE47D300C00388 /* TimerTableViewCell.h */,
+				60F9CF7418DE47D300C00388 /* TimerTableViewCell.m */,
+				60F9CF7518DE47D300C00388 /* TimerTableViewCell.xib */,
+			);
+			name = MultiView;
+			sourceTree = "<group>";
+		};
+		60F9CF7918DE47E300C00388 /* SingleView */ = {
+			isa = PBXGroup;
+			children = (
+				609BFD3518E3380700672D4A /* SingleViewController */,
+				609BFD4718E4767300672D4A /* LapTimeCell */,
+			);
+			name = SingleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60F9CF3818DE401500C00388 /* MultiTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F9CF6518DE401500C00388 /* Build configuration list for PBXNativeTarget "MultiTimer" */;
+			buildPhases = (
+				60F9CF3518DE401500C00388 /* Sources */,
+				60F9CF3618DE401500C00388 /* Frameworks */,
+				60F9CF3718DE401500C00388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiTimer;
+			productName = MultiTimer;
+			productReference = 60F9CF3918DE401500C00388 /* MultiTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60F9CF5318DE401500C00388 /* MultiTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F9CF6818DE401500C00388 /* Build configuration list for PBXNativeTarget "MultiTimerTests" */;
+			buildPhases = (
+				60F9CF5018DE401500C00388 /* Sources */,
+				60F9CF5118DE401500C00388 /* Frameworks */,
+				60F9CF5218DE401500C00388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60F9CF5A18DE401500C00388 /* PBXTargetDependency */,
+			);
+			name = MultiTimerTests;
+			productName = MultiTimerTests;
+			productReference = 60F9CF5418DE401500C00388 /* MultiTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60F9CF3118DE401500C00388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = rbrooks;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = rbrooks;
+				TargetAttributes = {
+					60F9CF5318DE401500C00388 = {
+						TestTargetID = 60F9CF3818DE401500C00388;
+					};
+				};
+			};
+			buildConfigurationList = 60F9CF3418DE401500C00388 /* Build configuration list for PBXProject "MultiTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60F9CF3018DE401500C00388;
+			productRefGroup = 60F9CF3A18DE401500C00388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60F9CF3818DE401500C00388 /* MultiTimer */,
+				60F9CF5318DE401500C00388 /* MultiTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60F9CF3718DE401500C00388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609BFD3318E337F100672D4A /* SingleTimedRunnerViewController.xib in Resources */,
+				60F9CF7218DE407700C00388 /* MultiTimerTableViewController.xib in Resources */,
+				609BFD4F18E4D2A300672D4A /* Back_Arrow.png in Resources */,
+				60F9CF4718DE401500C00388 /* InfoPlist.strings in Resources */,
+				609BFD4E18E4D2A300672D4A /* Back_Arrow@2x.png in Resources */,
+				60F9CF4F18DE401500C00388 /* Images.xcassets in Resources */,
+				60F9CF7718DE47D300C00388 /* TimerTableViewCell.xib in Resources */,
+				609BFD3F18E471E000672D4A /* multiTimer_120.png in Resources */,
+				609BFD4618E4766D00672D4A /* UITableViewLapTimeCell.xib in Resources */,
+				609BFD4018E471E000672D4A /* multiTimer_58.png in Resources */,
+				609BFD4118E471E000672D4A /* multiTimer_80.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F9CF5218DE401500C00388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F9CF6018DE401500C00388 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60F9CF3518DE401500C00388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F9CF7118DE407700C00388 /* MultiTimerTableViewController.m in Sources */,
+				609BFD4518E4766D00672D4A /* UITableViewLapTimeCell.m in Sources */,
+				60F9CF4918DE401500C00388 /* main.m in Sources */,
+				609BFD3218E337F100672D4A /* SingleTimedRunnerViewController.m in Sources */,
+				60F9CF4D18DE401500C00388 /* rbrooksAppDelegate.m in Sources */,
+				6068844A18DFCAA900ECDDF8 /* TimedRunner.m in Sources */,
+				60F9CF7618DE47D300C00388 /* TimerTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F9CF5018DE401500C00388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F9CF6218DE401500C00388 /* MultiTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60F9CF5A18DE401500C00388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60F9CF3818DE401500C00388 /* MultiTimer */;
+			targetProxy = 60F9CF5918DE401500C00388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60F9CF4518DE401500C00388 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60F9CF4618DE401500C00388 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60F9CF5E18DE401500C00388 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60F9CF5F18DE401500C00388 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60F9CF6318DE401500C00388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60F9CF6418DE401500C00388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60F9CF6618DE401500C00388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTimer/MultiTimer-Prefix.pch";
+				INFOPLIST_FILE = "MultiTimer/MultiTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60F9CF6718DE401500C00388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTimer/MultiTimer-Prefix.pch";
+				INFOPLIST_FILE = "MultiTimer/MultiTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		60F9CF6918DE401500C00388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiTimer.app/MultiTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTimer/MultiTimer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiTimerTests/MultiTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		60F9CF6A18DE401500C00388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiTimer.app/MultiTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTimer/MultiTimer-Prefix.pch";
+				INFOPLIST_FILE = "MultiTimerTests/MultiTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60F9CF3418DE401500C00388 /* Build configuration list for PBXProject "MultiTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F9CF6318DE401500C00388 /* Debug */,
+				60F9CF6418DE401500C00388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60F9CF6518DE401500C00388 /* Build configuration list for PBXNativeTarget "MultiTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F9CF6618DE401500C00388 /* Debug */,
+				60F9CF6718DE401500C00388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60F9CF6818DE401500C00388 /* Build configuration list for PBXNativeTarget "MultiTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F9CF6918DE401500C00388 /* Debug */,
+				60F9CF6A18DE401500C00388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60F9CF3118DE401500C00388 /* Project object */;
+}
